@@ -1,13 +1,10 @@
 /**
  * #1 Hobbies
- * ----------
- * 1. Create an array of group member hobbies
+ * ---------- jetskiing, lifting, hiking, 
+ * 1. Create an array of group member hobbies 
  * 2. Write a loop that logs out each hobby
- * 3. After the loop, log out the total number of
- *    hobbies
- */
-
-
+ * 3. After the loop, log out the total number of hobbies
+ 
 // Example output
 // 1. swimming
 // 2. board games
@@ -24,8 +21,14 @@
  *    is in the array
  * 4. Output the array and number of times teal was found
  */
+let colors = ['teal', 'purple', 'yellow', 'teal', 'magenta']
+let tealCount = 0;
 
-
+for (let i = 0; i<colors.length; i++){
+    if (colors[i] === 'teal'){
+        console.log('found string', colors[i]);
+    }
+}
 // Example output
 // green, red, teal, orange, teal
 // Teal was found 2 times
@@ -41,7 +44,13 @@
  * 4. Output the original array, odd number array and even number array
  */
 
+let numbers = [1, 2, 3, 4, 5]
+let oddNumbers = []
+let evenNumbers = []
 
+for (let i = 0; i < numbers.length; i+= 2){
+    if(i = )
+}
 // Example output
 // 3, 7, 2, 8, 11, 4, 2
 // Odd 3, 7, 11
@@ -95,3 +104,10 @@
 // Example output
 // 5, 1, 8, 2, 9, 1, 4, 5, 0
 // Greatest Position Distance: 7
+
+let hobbies = ["jetskiing", "lifting", "hiking"]
+
+var array1 = ["lifting", "hiking", "swimming"]
+for (i = 0; i<array1.length; i++) {
+    console.log(array1);
+}
